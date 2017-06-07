@@ -1,0 +1,36 @@
+*{
+  font-family: Helvetica;
+}
+.container {
+    display: flex;
+}
+h1{
+  color:white;
+  position:absolute;
+  width: 629px;
+  text-align: center;
+  margin: 0;
+  padding: 30px 0px;
+  opacity: 0.79;
+background-image: linear-gradient(270deg, #D61D1D 24%, #244695 62%);
+font-size: 64px;
+color: #F0F0F0;
+text-shadow: 0 6px 2px rgba(0,0,0,0.94);
+}
+h2{
+  width: 629px;
+}
+.rechte_spalte{
+  padding: 10px 100px;
+opacity: 0.88;
+font-size: 50px;
+color: rgba(255,255,255,0.88);
+background-image: linear-gradient(180deg, #E60000 ,#370FE0);
+}
+p{
+  font-size: 30px;
+
+}
+p:first-of-type{
+  margin-bottom: 200px;
+}
