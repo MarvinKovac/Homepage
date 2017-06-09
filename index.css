@@ -21,6 +21,7 @@ h2{
   width: 629px;
 }
 .rechte_spalte{
+  position: relative;
   padding: 10px 100px;
 opacity: 0.88;
 font-size: 50px;
@@ -29,8 +30,52 @@ background-image: linear-gradient(180deg, #E60000 ,#370FE0);
 }
 p{
   font-size: 30px;
+}
+
+p:first-of-type{
+  margin-bottom: 156px;
+}
+
+.daumen:hover{
+  transform: translateX(-58px) scale(1.4);
+}
+.like-icon_container{
+  position: relative;
+}
+
+.like-icon{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-61px);
+}
+.counter{
+  transform: translateY(40px) translateX(-45px);
 
 }
-p:first-of-type{
-  margin-bottom: 200px;
+.daumen{
+  top: 15px;
+  transform: translateX(-58px);
 }
+.socialNet{
+  position: absolute;
+}
+.insta{
+  width: 8%;
+  bottom: 13px;
+
+}
+.insta:hover{
+  transform: scale(1.3);
+}
+.yout{
+  width: 10%;
+  bottom: 15px;
+  left: 100%;
+  transform: translateX(-180.77px);
+}
+.yout:hover{
+transform:translateX(-180.77px) scale(1.4);
+
+}
+
+/* Rectangle 3: */
